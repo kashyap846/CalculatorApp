@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F44336"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="@android:color/darker_gray" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonc"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="144dp"
+            android:layout_height="70dp"
+            android:background="@android:color/holo_orange_light"
+            android:backgroundTint="#FFC107"
+            android:text="@string/C" />
+
+        <Button
+            android:id="@+id/buttonbraces"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="139dp"
+            android:layout_height="70dp"
+            android:background="#FFC107"
+            android:text="@string/bracket" />
+
+        <Button
+            android:id="@+id/buttonpercentage"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="125dp"
+            android:layout_height="70dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/percentage" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttondiv"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#FFC107"
+            android:text="@string/divide"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/buttonsub"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFC107"
+            android:text="@string/subtract"
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <Button
+            android:id="@+id/buttonmul"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#FFC107"
+            android:text="@string/multiply" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonadd"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#FFC107"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/buttonboth"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#CDDC39"
+            android:text="@string/plusorminus" />
+
+        <Button
+            android:id="@+id/buttondot"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#CDDC39"
+            android:text="@string/dot" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:text="@string/nine" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:backgroundTint="#F44336"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:backgroundTint="#F44336"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:text="@string/six" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:backgroundTint="#F44336"
+            android:text="@string/one" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:backgroundTint="#F44336"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="#F44336"
+            android:backgroundTint="#F44336"
+            android:text="@string/three" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#4CAF50"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/buttonac"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#4CAF50"
+            android:text="@string/allclear" />
+
+        <Button
+            android:id="@+id/buttoneql"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#4CAF50"
+            android:text="@string/equals" />
+    </TableRow>
+</TableLayout>
